@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Projects/PPP_3/func.h
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/Projects/PPP_3/parte1.c
+func.h
+/Projects/PPP_3/func.h
+

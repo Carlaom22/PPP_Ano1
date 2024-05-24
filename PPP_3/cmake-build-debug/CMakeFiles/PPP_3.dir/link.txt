@@ -1,0 +1,1 @@
+/usr/bin/gcc.exe -g  -Wl,--enable-auto-import CMakeFiles/PPP_3.dir/main.c.o CMakeFiles/PPP_3.dir/parte2.c.o CMakeFiles/PPP_3.dir/parte1.c.o CMakeFiles/PPP_3.dir/lib-utf8.c.o  -o PPP_3.exe -Wl,--out-implib,libPPP_3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
